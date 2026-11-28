@@ -7,6 +7,7 @@ void main()
     scanf("%d", &n);
 
     int a[n], temp;
+    printf("Enter elements : \n");
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &a[i]);
@@ -26,7 +27,7 @@ void main()
         a[j + 1] = key;
     }
 
-    printf("After Insertion Sort : \n");
+    printf("\nAfter Insertion Sort : \n");
     for (int i = 0; i < n; i++)
     {
         printf("%d  ", a[i]);
