@@ -7,6 +7,7 @@ void main()
     scanf("%d", &n);
 
     int a[n], temp;
+    
     printf("Enter elements : \n");
     for (int i = 0; i < n; i++)
     {

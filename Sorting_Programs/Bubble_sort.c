@@ -7,6 +7,8 @@ void main()
     scanf("%d", &n);
 
     int a[n], temp;
+    
+    printf("Enter elements : \n");
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &a[i]);
@@ -25,7 +27,7 @@ void main()
         }
     }
 
-    printf("After Bubble Sort : \n");
+    printf("\nAfter Bubble Sort : \n");
     for (int i = 0; i < n; i++)
     {
         printf("%d  ", a[i]);
